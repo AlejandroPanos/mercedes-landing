@@ -1,3 +1,39 @@
+/* Create variables */
+:root {
+  --section-primary-bg-color: black;
+  --section-secondary-bg-color: darkslategray;
+  --primary-div-bg-color: lightgray;
+  --primary-btn-bg-color: white;
+  --secondary-btn-bg-color: black;
+  --select-bg-gray: gray;
+  --select-bg-black: black;
+  --select-bg-blue: blue;
+  --select-bg-yellow: orange;
+  --select-bg-red: red;
+  --font-primary: "Roboto Serif", "serif";
+  --font-secondary: "Inter Tight", "sans-serif";
+  --font-white: white;
+  --font-black: black;
+  --font-gray: gray;
+  --progress-bar: gray;
+  --font-size-96: 6rem;
+  --font-size-88: 5.5rem;
+  --font-size-80: 5rem;
+  --font-size-72: 4.5rem;
+  --font-size-64: 4rem;
+  --font-size-56: 3.5rem;
+  --font-size-48: 3rem;
+  --font-size-40: 2.5rem;
+  --font-size-32: 2rem;
+  --font-size-24: 1.5rem;
+  --font-size-20: 1.25rem;
+  --font-size-16: 1rem;
+  --font-size-12: 0.75rem;
+  --container-max-width: 1200px;
+  --container-spacing: 2rem;
+  --primary-border-radius: 10px;
+}
+
 /* Set global styles */
 html {
   scroll-behavior: smooth;
@@ -46,42 +82,6 @@ button {
 
 button:hover {
   cursor: pointer;
-}
-
-/* Create variables */
-:root {
-  --section-primary-bg-color: black;
-  --section-secondary-bg-color: darkslategray;
-  --primary-div-bg-color: lightgray;
-  --primary-btn-bg-color: white;
-  --secondary-btn-bg-color: black;
-  --select-bg-gray: gray;
-  --select-bg-black: black;
-  --select-bg-blue: blue;
-  --select-bg-yellow: orange;
-  --select-bg-red: red;
-  --font-primary: "Roboto Serif", "serif";
-  --font-secondary: "Inter Tight", "sans-serif";
-  --font-white: white;
-  --font-black: black;
-  --font-gray: gray;
-  --progress-bar: gray;
-  --font-size-96: 6rem;
-  --font-size-88: 5.5rem;
-  --font-size-80: 5rem;
-  --font-size-72: 4.5rem;
-  --font-size-64: 4rem;
-  --font-size-56: 3.5rem;
-  --font-size-48: 3rem;
-  --font-size-40: 2.5rem;
-  --font-size-32: 2rem;
-  --font-size-24: 1.5rem;
-  --font-size-20: 1.25rem;
-  --font-size-16: 1rem;
-  --font-size-12: 0.75rem;
-  --container-max-width: 1200px;
-  --container-spacing: 2rem;
-  --primary-border-radius: 10px;
 }
 
 /* Create nav styles */
@@ -193,6 +193,11 @@ button:hover {
   font-weight: 300;
 }
 
+.car-grid-item a {
+  text-decoration: none;
+  color: var(--font-black);
+}
+
 .car-grid-item-top {
   display: flex;
   flex-direction: column;
@@ -213,11 +218,13 @@ button:hover {
   gap: 1rem;
 }
 
-.color-selector div {
+.color-selector button {
   border-radius: 50%;
   height: 25px;
   width: 25px;
   border: 2px solid rgb(226, 226, 226);
+  padding: 0;
+  cursor: pointer;
 }
 
 .color:nth-child(1) {
@@ -314,6 +321,11 @@ button:hover {
   font-weight: 400;
 }
 
+.map-content a {
+  text-decoration: none;
+  color: var(--font-black);
+}
+
 /* Create carrousel styles */
 .carrousel-holder {
   display: flex;
@@ -343,6 +355,11 @@ button:hover {
 .carrousel-item img {
   width: 100%;
   border-radius: var(--primary-border-radius);
+}
+
+.carrousel-item a {
+  text-decoration: none;
+  color: var(--font-black);
 }
 
 .bar-holder {
@@ -456,6 +473,11 @@ button:hover {
   background-color: var(--secondary-btn-bg-color);
 }
 
+.wheel-right a {
+  text-decoration: none;
+  color: var(--font-white);
+}
+
 .wheel-left img {
   max-width: 550px;
 }
@@ -474,6 +496,11 @@ button:hover {
 .cta-content p {
   color: var(--font-white);
   font-weight: 300;
+}
+
+.cta-content a {
+  text-decoration: none;
+  color: var(--font-black);
 }
 
 /* Create footer styles */

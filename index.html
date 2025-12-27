@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A landing page for Mercedes Benz showcasing some of their most recent car models"
+    />
+    <meta
+      name="keywords"
+      content="Mercedes-Benz, luxury cars, electric vehicles, hybrid cars, Mercedes dealership, premium cars"
+    />
+    <meta name="author" content="Alejandro Paños" />
+    <meta name="robots" content="index, follow" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +26,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Proyecto Landing</title>
+    <title>Mercedes - Benz | Luxury Vehicles</title>
   </head>
   <body>
     <header>
@@ -74,12 +84,17 @@
                 <p>Mercedes E450 Cabriolet</p>
               </div>
               <div class="car-grid-item-bottom">
-                <button>More Info</button>
+                <button>
+                  <a
+                    href="https://www.mercedes-benz.es/passengercars/models/cabriolet-roadster/cle/overview.html"
+                    >More Info</a
+                  >
+                </button>
                 <div class="color-selector">
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
                 </div>
               </div>
             </div>
@@ -90,12 +105,17 @@
                 <p>Mercedes E45 AMG</p>
               </div>
               <div class="car-grid-item-bottom">
-                <button>More Info</button>
+                <button>
+                  <a
+                    href="https://www.mercedes-benz.es/passengercars/models/saloon/e-class/amg.html"
+                    >More Info</a
+                  >
+                </button>
                 <div class="color-selector">
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
                 </div>
               </div>
             </div>
@@ -106,12 +126,17 @@
                 <p>Mercedes E300 Hybrid</p>
               </div>
               <div class="car-grid-item-bottom">
-                <button>More Info</button>
+                <button>
+                  <a
+                    href="https://www.mercedes-benz.es/passengercars/models/saloon/eqe/overview.html"
+                    >More Info</a
+                  >
+                </button>
                 <div class="color-selector">
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
                 </div>
               </div>
             </div>
@@ -122,12 +147,16 @@
                 <p>Mercedes E650 Full Electric</p>
               </div>
               <div class="car-grid-item-bottom">
-                <button>More Info</button>
+                <button>
+                  <a href="https://www.mercedes-benz.es/passengercars/models/saloon/eqe/amg.html"
+                    >More Info</a
+                  >
+                </button>
                 <div class="color-selector">
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
-                  <div class="color"></div>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
+                  <button class="color"></button>
                 </div>
               </div>
             </div>
@@ -150,7 +179,11 @@
           <div class="map-container">
             <div class="map-content">
               <h3>Discover your local Mercedes partner store</h3>
-              <button>Find a store near you</button>
+              <button>
+                <a href="https://www.mercedes-benz.es/passengercars/brand/locations.html"
+                  >Find a store near you</a
+                >
+              </button>
             </div>
           </div>
         </div>
@@ -163,32 +196,48 @@
         <div class="carrousel-item">
           <h3>Confort</h3>
           <img src="public/interior.jpg" alt="The interior of a Mercedes Benz vehicle" />
-          <button>More Info</button>
+          <button>
+            <a href="https://www.mercedes-benz.es/passengercars/buy/digital-extras-overview.html"
+              >More Info</a
+            >
+          </button>
         </div>
         <!-- Item 2 -->
         <div class="carrousel-item">
           <h3>Technology</h3>
           <img src="public/interior.jpg" alt="The interior of a Mercedes Benz vehicle" />
-          <button>More Info</button>
+          <button>
+            <a href="https://www.mercedes-benz.es/passengercars/buy/digital-extras-overview.html"
+              >More Info</a
+            >
+          </button>
         </div>
         <!-- Item 3 -->
         <div class="carrousel-item">
           <h3>Accesories</h3>
           <img src="public/interior.jpg" alt="The interior of a Mercedes Benz vehicle" />
-          <button>More Info</button>
+          <button>
+            <a href="https://www.mercedes-benz.es/passengercars/buy/digital-extras-overview.html"
+              >More Info</a
+            >
+          </button>
         </div>
         <!-- Item 4 -->
         <div class="carrousel-item">
           <h3>Add-Ons</h3>
           <img src="public/interior.jpg" alt="The interior of a Mercedes Benz vehicle" />
-          <button>More Info</button>
+          <button>
+            <a href="https://www.mercedes-benz.es/passengercars/buy/digital-extras-overview.html"
+              >More Info</a
+            >
+          </button>
         </div>
       </div>
       <div class="container">
         <div class="bar-holder">
-          <div class="full-bar">
+          <!-- <div class="full-bar">
             <div class="progress-bar"></div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -219,7 +268,11 @@
               The exclusive Mercedes-Maybach wheel programme, e.g. with optional 53.3 cm (21")
               Maybach forged wheels in multi-spoke design.
             </p>
-            <button>Learn More</button>
+            <button>
+              <a href="https://www.mercedes-benz.es/passengercars/mercedes-maybach.html"
+                >Learn More</a
+              >
+            </button>
           </div>
           <div class="wheel-left">
             <img src="public/wheel.png" alt="An image of a car wheel" />
@@ -235,7 +288,11 @@
             Ready to own the car of your dreams? Mercedes-Maybach are now available at our dealers
             by appointment only.
           </p>
-          <button>CONTACT NOW</button>
+          <button>
+            <a href="https://www.mercedes-benz.es/passengercars/services/support-contact.html"
+              >CONTACT NOW</a
+            >
+          </button>
         </div>
       </div>
     </section>
